@@ -1,0 +1,168 @@
+body{
+margin:0;
+padding:0;
+background-color:black
+}
+
+.parent{
+width:1280px;
+
+margin:50px auto 0;
+display:flex;
+flex-direction:row;
+flex-wrap:wrap;
+
+}
+.parent .child{
+position:relative;
+width:300px;
+height:300px;
+background:#ff0;
+margin:10px;
+box-sizing:border-box;
+display: inline-block;
+}
+.parent .child .chi1{
+
+position:relative;
+overflow:hidden;
+}
+.parent .child .chi2{
+
+position:relative;
+overflow:hidden;
+}
+.parent .child .chi3{
+
+position:relative;
+overflow:hidden;
+}
+.parent .child .chi4{
+
+position:relative;
+overflow:hidden;
+}
+.parent .child .chi5{
+
+position:relative;
+overflow:hidden;
+}
+.parent .child .chi6{
+
+position:relative;
+overflow:hidden;
+}
+.parent .child .chi7{
+
+position:relative;
+overflow:hidden;
+}
+.parent .child .chi8{
+
+position:relative;
+overflow:hidden;
+}
+.parent .child .chi1 img{
+width:100%;
+height:100%;
+transition: transform 2s;
+}
+.parent .child .chi2 img{
+width:100%;
+height:100%;
+transition: transform 2s;
+}
+.parent .child .chi3 img{
+width:100%;
+height:100%;
+transition: transform 2s;
+}
+.parent .child .chi4 img{
+width:100%;
+height:100%;
+transition: transform 2s;
+}
+.parent .child .chi5 img{
+width:100%;
+height:100%;
+transition: transform 2s;
+}
+.parent .child .chi6 img{
+width:100%;
+height:100%;
+transition: transform 2s;
+}
+.parent .child .chi7 img{
+width:100%;
+height:100%;
+transition: transform 2s;
+}
+.parent .child .chi8 img{
+width:100%;
+height:100%;
+transition: transform 2s;
+}
+.parent .child:hover .chi1 img{
+
+transform:scale(1.2);
+
+}
+.parent .child:hover .chi2 img{
+
+transform:scale(1.2);
+
+}
+.parent .child:hover .chi3 img{
+
+transform:scale(1.2);
+
+}
+.parent .child:hover .chi4 img{
+
+transform:scale(1.2);
+
+}
+.parent .child:hover .chi5 img{
+
+transform:scale(1.2);
+
+}
+.parent .child:hover .chi6 img{
+
+transform:scale(1.2);
+
+}
+.parent .child:hover .chi7 img{
+
+transform:scale(1.2);
+
+}
+.parent .child:hover .chi8 img{
+
+transform:scale(1.2);
+
+}
+.parent .child .detail
+{
+position:absolute;
+top:10px;
+left:10px;
+bottom:10px;
+right:10px;
+background:rgba(0,0,0,.8);
+transform:scaley(0);
+transition: transform .5s;
+
+}
+.parent .child:hover .detail
+{
+transform:scaley(1);
+}
+.parent .child .detail .content{
+position:absolute;
+top:50%;
+transform:translatey(-50%);
+text-align:center;
+padding:15px;
+color:#fff;
+}

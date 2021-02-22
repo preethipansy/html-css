@@ -1,0 +1,76 @@
+body{
+margin:0;
+padding:0;
+background-color:black;
+background-size:cover;
+font-family:sans-serif;
+color:white;
+}
+a{
+color:white;
+}
+.intro{
+font-family:Showcard Gothic;
+text-align:center;
+font-size:30px;
+//margin:10px;
+padding:20px;
+color:pink;
+}
+.parent{
+margin:10px;
+display:grid;
+//grid-template-columns:50px 40px;
+//grid-template-rows:45px 45px;
+grid-template-areas:
+"one one one"
+"two two two"
+"three three three"
+"four four four"
+"five five five"
+"six six six";
+text-decoration:none;
+}
+.child:nth-child(odd){
+font-family:AR CARTER;
+
+font-size:25px;
+text-align:center;
+border:0px solid white;
+//color:black;
+//background-color:FF336E;
+margin:10px;
+}
+.child:nth-child(even){
+font-family:AR CARTER;
+text-align:center;
+font-size:30px;
+border:0px solid white;
+//color:black;
+//background-color:7D0D36;
+margin:10px;
+}
+.child:hover{
+background-color:rgb(212,167,182);
+border-radius:2px;
+color:black;
+}
+.one{
+grid-area:one;
+}
+.two{
+grid-area:two;
+}
+.three{
+grid-area:three;
+}
+.four{
+grid-area:four;
+}
+.five{
+grid-area:five;
+}
+.six{
+grid-area:six;
+}
+

@@ -1,0 +1,21 @@
+flex
+
+     *use  div class in html page 
+     *use word display flex to div a grap between each one
+                          flex-direction: column;
+                          flex-wrap: wrap;
+                          flex-flow: row wrap;
+                          justify-content: center;
+                          justify-content: flex-start; .justify-content: center; flex-stop;
+                          align-content: space-between;
+                          align-content: space-around;
+                          align-content: stretch;
+ Child Elements (Items)
+             The flex item properties are:
+
+order
+flex-grow
+flex-shrink
+flex-basis
+flex
+align-self                         

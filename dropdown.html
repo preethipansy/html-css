@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>dropdownlist</title>
+<link rel="stylesheet" href="design3.css">
+<script>
+  function fun(a) {
+  var x=a;
+    var y=prompt("enter some text","preethi");
+ switch (x) {
+     case 20:
+        var result=y.fontsize(2);
+        document.getElementById("one").innerHTML=result;
+         break;
+     case 30:
+         var result=y.fontsize(3);
+        document.getElementById("one").innerHTML=result;
+      
+         break;
+     case 40:
+          var result=y.fontsize(4);
+        document.getElementById("oneone").innerHTML=result;
+         break;
+     case 50:
+           var result=y.fontsize(7);
+        document.getElementById("oneone").innerHTML=result;
+         break;
+     default:
+     document.getElementById("one").innerHTML="no such number exists";
+         break;
+ }
+     }
+</script>
+</head>
+<body>
+<div class="taskbar">
+<ul>
+<h1 class="love">PREETHI PANSY</h1>
+<li class="work"><a href="imagegrid.html">image grid</a>
+<div class="sub">
+<ul>
+<li><a href="onepic.html">one pic</a></li>
+<li><a href="twopic.html">two pic</a></li>
+<li><a href="threepic.html">three pic</a></li>
+<li><a href="fourpic.html">four pic</a></li>
+</ul>
+</div>
+</li>
+  <li class="love2"><a href="color1.html">color</a>
+<div class="sub1">
+<ul>
+<li><a href="pink.html" target="iframe_a">pink</a></li>
+<li><a href="yellow.html" target="iframe_a">yellow</a></li>
+<li><a href="blue.html" target="iframe_a">blue</a></li>
+<li><a href="green.html" target="iframe_a">green</a></li>
+</ul>
+</div>
+</li>
+  <li><a href="font1.html">font</a>
+<div class="sub2">
+<ul>
+<li><a href="Segoe.html">Segoe Script</a></li>
+<li><a href="Show.html">Showcard Gothic</a></li>
+<li><a href="Lucida.html">Lucida Handwriting</a></li>
+<li><a href="Algerian.html">Algerian</a></li>
+</ul>
+</div>
+</li>
+  <li><a href="size1.html">size</a>
+<div class="sub3">
+<ul>
+<li><a href="display.html" onclick="fun(20)"  target="iframe_a">20px</a></li>
+<li><a href="display.html" onclick="fun(30)" target="iframe_a" >30px</a></li>
+<li><a href="display.html" onclick="fun(40)" target="iframe_a" >40px</a></li>
+<li><a href="display.html" onclick="fun(50)" target="iframe_a" >50px</a></li>
+</ul>
+</div>
+</li>
+</li>
+</ul>
+</div>
+<iframe name="iframe_a" width="100%" height="100%" style="border:1px solid black;">
+</iframe>
+</body>
+</html>

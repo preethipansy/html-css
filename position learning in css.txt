@@ -1,0 +1,13 @@
+CSS Layout - The position Property
+                             
+                                      
+    static:flow of the page
+    relative:adjest to position top left bottom
+    fixed:fixed even the page is scrolled.sont follow
+    absolute:related to relative position
+    sticky:fixed but srolled  it comes or follows
+  
+
+
+
+ z-index: -1; this will make overlap over img or text.
